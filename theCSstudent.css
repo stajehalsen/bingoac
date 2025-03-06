@@ -14,6 +14,10 @@ table {
     width: 60%;
     height: 400px;
     font-size: 2rem;
+    background-image: url('bingo-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 th, td {
@@ -21,6 +25,7 @@ th, td {
     width: 20%;
     height: 80px;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 th {
