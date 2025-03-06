@@ -11,7 +11,7 @@ function generateBingoCard() {
     for (let row = 0; row < 5; row++) {
         for (let col = 0; col < 5; col++) {
             if (row === 2 && col === 2) continue;
-            bingoTable.rows[row + 1].cells[col].innerText = columns[col][row];
+            bingoTable.rows[row].cells[col].innerText = columns[col][row];
         }
     }
 }
